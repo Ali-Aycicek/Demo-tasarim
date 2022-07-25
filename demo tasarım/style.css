@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image{
+    height: 175px;
+    width: 315;
+}
+
+.alt{
+    height: 500px;
+}
+.video{
+    height: 491px;
+    width: 873px;
+}
+.aciklama{
+    width: 873px;
+}
+
+.nav-item a{
+    display: inline-block;
+}
+
+
+@media (max-width: 576px){
+    .video{
+        width: 100%;
+    }
+    .aciklama{
+        width: 100%;
+    }
+    
+    .nav-item a{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .denem{
+        font-size: 0px;
+    }
+    .image{
+        height: 200px;
+        width: 50%;
+        float: left;
+    }
+}
